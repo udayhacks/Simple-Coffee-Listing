@@ -1,39 +1,122 @@
-import
 
-.wrapper {
 
-    background:rgb(28, 29, 31);
+
+
+
+
+
+
+
+
+
+.wrapper{
+    background-color: #1c1d1f;
+    align-content: center;
+
+    border-radius:10px;
+    margin:auto;
 }
 
-.ourCollection{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("src/assets/vector.svg");
-background-repeat: no-repeat;}
-.intro{
 
+.ourCollection{
+
+    display: flex;
+    border: #dc2020;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.sec{
+    justify-content: center;
+}
+
+
+
+.title{
+    color : rgb(255, 249, 239);
+    justify-content: center;
+}
+
+
+.intro{
     color : rgb(255, 249, 239);
 }
 
-.title{
-color : rgb(255, 249, 239);
+.buttons{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.collection_button ,.available_button{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color:white;
+    background-color: #1c1d1f;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+
+
+
+}
+.clicked{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color:white;
+    background-color : #4d5562;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+
+.collection_button:hover ,.available_button:hover{
+    background-color : #4d5562;
 }
 
 
 .displayCoffee{
-
-
-
-
-}
-
-.btn{
     display: flex;
     flex-direction: row;
     align-items: center;
-justify-content: center;
-    }
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: #1e1e1e;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

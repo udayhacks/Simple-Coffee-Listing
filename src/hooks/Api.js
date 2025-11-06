@@ -17,7 +17,7 @@ export default function useCoffeeData() {
                 const response = await axios.get(BASE_URL);
                 setData(response.data);
             } catch (err) {
-                setError(err);
+                setError(err.statusText);
             } finally {
                 setLoading(false);
             }
