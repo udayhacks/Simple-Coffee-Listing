@@ -27,9 +27,10 @@
 
     background-image: url("src/assets/vector.svg");
     background-repeat: no-repeat;
-    background-position: 58%;
+    background-position: 64%;
     background-size: contain;
-    padding: 2rem;
+    margin-top: 4%;
+
 }
 
 
@@ -47,11 +48,18 @@
 }
 
 .intro{
+
+
     color : rgb(255, 249, 239);
     justify-content: center;
     text-align: center;
     font-size:1rem;
     color: #61646b;
+    margin:10px auto 20px;
+    max-width: 500px;
+    line-height: 1.5;
+;
+
 
 }
 .buttons{
